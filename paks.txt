@@ -1,0 +1,68 @@
+package epi1;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class practiceset {
+
+
+	public static void main(String[] args) {
+	System.out.println("HII");
+	int a = 1;
+	System.out.println(a);
+	int b = 5;
+	int c = 3;
+	//String result = Integer.toString(b) + Integer.toString(c);
+	//System.out.println(result);
+	String result=b+""+c;
+	System.out.println(result);
+    int id = 101;
+    String name = "Packia";
+    float height = 162.01f;
+    double weight = 70.5673;
+    char initial = 'H';
+    boolean identify = true;
+    boolean identify1 = false;
+    System.out.println(id);
+    System.out.println(name);
+    System.out.println(height);
+    System.out.println(weight);
+    System.out.println(initial);
+    System.out.println(identify);
+    System.out.println(identify1);
+    int[] a1 = new int [3];
+    a1[0]=100;
+    a1[1]=200;
+    a1[2]=300;
+    System.out.println(Arrays.toString(a1));
+    //System.out.println(a1[1]);
+    char[] characters = new char[5];
+    characters[0]='A';
+    characters[1]='B';
+    characters[2]='C';
+    characters[3]='D';
+    characters[4]='E';
+//To display all the values that is stored in an array 
+    System.out.println(Arrays.toString(characters)); 
+//To find the specific one
+    System.out.println(characters[4]);
+//To find the length of the given array
+    System.out.println(characters.length);
+    float[] averageofmarks = new float[5];
+    averageofmarks[0]=50.50f;
+    averageofmarks[1]=60.75f;
+    averageofmarks[2]=56.75f;
+    averageofmarks[3]=49.32f;
+    averageofmarks[4]=72.28f;
+    System.out.println(Arrays.toString(averageofmarks));
+ //User input - scanner
+    
+    Scanner input = new Scanner (System.in);
+    System.out.println("enter a number");
+    int o= input.nextInt();
+    System.out.println("The Entered Number Is:" + o ); 	
+    
+    
+ 
+} 
+}
