@@ -7,3 +7,9 @@ function sub() {
     console.log('a-b')
     
 }
+
+function mul() {
+
+    console.log('a*b')
+
+}
